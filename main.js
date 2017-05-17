@@ -1,13 +1,13 @@
 import Expo from 'expo';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-// import Ball from './src/Ball';
+import Ball from './src/Ball.js'
 
 class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        // <Ball />
+        <Ball />
       </View>
     );
   }
