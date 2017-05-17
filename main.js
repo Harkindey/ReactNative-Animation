@@ -15,10 +15,19 @@ const DATA = [
 ];
 
 class App extends React.Component {
+  renderCard () {
+    return (
+    <Text>{item.text}</Text>
+    );
+  }
+
   render() {
     return (
       <View style={styles.container}>
-        <Deck />
+        <Deck
+          data={DATA}
+          rendercard={this.renderCard}
+        />
       </View>
     );
   }
