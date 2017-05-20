@@ -98,9 +98,9 @@ class Deck extends Component {
 
   render (){
     return(
-      <View>
+      <Animated.View>
         {this.renderCards()}
-      </View>
+      </Animated.View>
     );
   }
 }
