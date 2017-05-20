@@ -41,7 +41,6 @@ class App extends React.Component {
         <Deck
           data={DATA}
           renderCard={this.renderCard}
-          onSwipeRight={() => console.log('something was swipped')}
         />
       </View>
     );
