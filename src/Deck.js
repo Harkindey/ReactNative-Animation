@@ -9,7 +9,7 @@ import {
 
 const SCREEN_WIDTH = Dimensions.get('window').width;
 const SWIPE_THRESHOLD = 0.25 * SCREEN_WIDTH;
-const SWIPE_OUT_DURATION =250
+const SWIPE_OUT_DURATION = 250;
 
 class Deck extends Component {
   static defaultProps = {
